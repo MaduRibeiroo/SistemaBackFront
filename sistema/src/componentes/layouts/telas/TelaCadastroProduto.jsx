@@ -1,9 +1,9 @@
 import { Alert } from "react-bootstrap";
 import FormCadastroProduto from "./FormCadastroProduto";
-import Pagina from "./Pagina";
+import Pagina from "../Pagina";
 import { useEffect, useState } from "react";
-import TabelaProduto from "../tabelas/TabelaProduto";
-import { consultarProduto } from "../servicos/servicoProduto";
+import TabelaProduto from "../../tabelas/TabelaProduto";
+import { consultarProduto } from "../../servicos/servicoProduto";
 
 export default function TelaCadastroProduto(props) {
 

@@ -1,8 +1,8 @@
 import { Alert } from "react-bootstrap";
 import FormCadastroUsuario from "./FormCadastroUsuario";
-import TabelaUsuario from "../tabelas/TabelaUsuario";
-import { usuarios } from "../dados/mockCategorias";
-import Pagina from "./Pagina";
+import TabelaUsuario from "../../tabelas/TabelaUsuario";
+import { usuarios } from "../../dados/mockCategorias";
+import Pagina from "../Pagina";
 import { useState } from "react";
 
 export default function TelaCadastroUsuario(props) {

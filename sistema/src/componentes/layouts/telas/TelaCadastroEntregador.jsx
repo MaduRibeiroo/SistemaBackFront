@@ -1,8 +1,8 @@
 import { Alert } from "react-bootstrap";
 import FormCadastroEntregador from './FormCadastroEntregador';
-import TabelaEntregador from "../tabelas/TabelaEntregador";
-import { entregadores } from "../dados/mockCategorias";
-import Pagina from "./Pagina";
+import TabelaEntregador from "../../tabelas/TabelaEntregador";
+import { entregadores } from "../../dados/mockCategorias";
+import Pagina from "../Pagina";
 import { useState } from "react";
 
 export default function TelaCadastroEntregador(props) {

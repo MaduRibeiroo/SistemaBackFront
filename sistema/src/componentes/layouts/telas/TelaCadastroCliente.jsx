@@ -1,8 +1,8 @@
 import { Alert } from "react-bootstrap";
 import FormCadastroCliente from './FormCadastroCliente';
-import TabelaCliente from "../tabelas/TabelaCliente";
-import { clientes } from "../dados/mockCategorias";
-import Pagina from "./Pagina";
+import TabelaCliente from "../../tabelas/TabelaCliente";
+import { clientes } from "../../dados/mockCategorias";
+import Pagina from "../Pagina";
 import { useState } from "react";
 
 export default function TelaCadastroCliente(props) {

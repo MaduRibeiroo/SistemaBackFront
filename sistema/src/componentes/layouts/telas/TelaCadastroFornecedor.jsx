@@ -1,8 +1,8 @@
 import { Alert } from "react-bootstrap";
 import FormCadastroFornecedor from "./FormCadastroFornecedor";
-import TabelaFornecedor from "../tabelas/TabelaFornecedor";
-import { fornecedores } from "../dados/mockCategorias";
-import Pagina from "./Pagina";
+import TabelaFornecedor from "../../tabelas/TabelaFornecedor";
+import { fornecedores } from "../../dados/mockCategorias";
+import Pagina from "../Pagina";
 import { useState } from "react";
 
 export default function TelaCadastroFornecedor(props) {
